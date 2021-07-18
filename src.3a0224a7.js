@@ -1470,4 +1470,4 @@ var e=arguments[3],t=require("buffer").Buffer;Object.defineProperty(exports,"__e
 },{"./base":"We8e","./register_all_kernels":"Em4V"}],"zo2T":[function(require,module,exports) {
 "use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});var t=e(require("./components/Main")),r=e(require("react")),u=e(require("react-dom"));require("@tensorflow/tfjs-backend-webgl"),window.React=r.default,u.default.render(React.createElement(t.default,null),document.getElementById("root"));
 },{"./components/Main":"Izf3","react":"n8MK","react-dom":"NKHc","@tensorflow/tfjs-backend-webgl":"gNVZ"}]},{},["zo2T"], null)
-//# sourceMappingURL=/src.3a0224a7.js.map
+//# sourceMappingURL=/tensorflowQnA/src.3a0224a7.js.map
