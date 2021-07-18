@@ -1,10 +1,14 @@
 {
+  "homepage": "https://kdm1jkm.github.io/tensorflowQnA/",
   "name": "tensorflowjs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /tensorflowQnA",
+    "predeploy": "rm -rf dist && npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
