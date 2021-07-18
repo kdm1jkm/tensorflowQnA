@@ -17,6 +17,7 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
+    "@tensorflow-models/qna": "^1.0.0",
     "@tensorflow/tfjs": "^3.8.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
